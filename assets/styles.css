@@ -1,0 +1,44 @@
+* {
+    background-color: white;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    color: #94aba0;
+    margin: 0;
+    padding: 0;
+}
+
+/* next: work on having header content centered no matter what. Perhaps look into position and flow */
+
+header {
+    background-color: white;
+    position: absolute;
+    top: 10px;
+    left: 350px;
+    z-index: 10;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+h1 {
+    font-size: 12px;
+    position: absolute;
+    top: 300px;
+    bottom:auto;
+    left: 60%;
+    right: auto;
+}
+
+.topbar {
+    background-color: #bdecdb;
+    height: 80px;
+    width: 100%;
+    position: absolute;
+    top: 150px;
+    z-index: 2;
+
+}
+
