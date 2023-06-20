@@ -8,6 +8,12 @@
 
 /* next: work on having header content centered no matter what. Perhaps look into position and flow */
 
+.all {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
 
 img {
     display: block;
@@ -30,17 +36,20 @@ h1 {
 
 .topbar {
     background-color: #bdecdb;
-    height: 80px;
+    height: 60px;
     width: 100%;
     margin-top: -200px;
+    margin-bottom: 200px;
 }
 
 .content {
-    width: 45%;
+   /* width: 45%;*/
+   max-width: 500px;
     height: auto;
-    margin-left: 20px;
-    margin-top: 220px;
+   margin-left: 200px;
+   /* margin-top: 220px; */
     display: block;
+    /*padding: 50px;*/
 }
 
 .aboutbar {
@@ -68,12 +77,20 @@ h1 {
 
 }
 
+.rightbox {
+    max-width: 500px;
+    height: auto;
+    display: block;
+    margin-right: 200px;
+}
+
 .work {
-    width: 40%;
+    /*width: 40%;*/
+    /* max-width: 500px;*/
     height: 724px;
-    margin-right: 20px;
-    margin-top: -848px;
+  /*  margin-right: 20px; */
+  /*  margin-top: -848px; */
     border: 2px solid #c8e7d4;
-    float: right;
-    padding: 50px;
+  /*  float: right;*/
+    padding: 50px; 
 }
