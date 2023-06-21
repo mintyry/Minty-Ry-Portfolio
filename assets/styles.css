@@ -1,21 +1,28 @@
 * {
-    background-color: #919c96;
+    /* background-color: #919c96; */
     font-family: 'Arial Narrow', Arial, sans-serif;
-    color: #94aba0;
+    color: white;
     margin: 0;
     padding: 0;
 }
 
+body {
+    background-image: url("./images/cloud.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+ } 
+
 /* next: work on having header content centered no matter what. Perhaps look into position and flow */
 
 header {
-
-    background-color: black !important;
+    background-color: transparent;
+    /* background-color: black !important; */
     /* background-image: linear-gradient(white, white, #bdecdb); */
 }
 
+
 .logo {
-    display: block;
+    display:block;
     margin-left: auto;
     margin-right: auto;
     top: 0px;
@@ -60,7 +67,7 @@ h1 {
 }
 
 .topbar {
-    background-image: linear-gradient(to right, rgb(212, 250, 163) , #bdecdb);
+    background-image: linear-gradient(to right, #d4faa3 ,#bdecdb, #bdecdb);
     height: 60px;
     width: 575px;
     margin-top: -200px;
@@ -68,7 +75,7 @@ h1 {
 }
 
 .otherbar {
-    background-image: linear-gradient(to left, #d4faa3 , #bdecdb);
+    background-image: linear-gradient(to left, #d4faa3 , #bdecdb, #bdecdb);
     height: 60px;
     width: 575px;
     margin-top: -260px;
@@ -76,6 +83,7 @@ h1 {
 }
 
 .all {
+    background-color: transparent;
     display:flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -140,9 +148,9 @@ h1 {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
-    background-image: linear-gradient(white, white, #919c96);
+    /* background-color: rgb(255, 255, 255, 0.5); */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5), rgb(145, 156, 150, 0.5));
     line-height: 1.5;
-
 }
 
 .about p, .contact, ul, a {
@@ -206,7 +214,7 @@ span {
     /* border: 2px solid #d4faa3; */
   /*  float: right;*/
     padding: 50px; 
-    background-image: linear-gradient(white, white, #919c96);
+    background-image: linear-gradient(rgb(255, 255, 255, 0.5), rgb(255, 255, 255, 0.5), rgb(145, 156, 150, 0.5));
 }
 
 .work p {
