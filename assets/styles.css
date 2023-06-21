@@ -1,5 +1,5 @@
 * {
-    /* background-color: #919c96; */
+    background-color: transparent;
     font-family: 'Arial Narrow', Arial, sans-serif;
     color: white;
     margin: 0;
@@ -12,7 +12,6 @@ body {
     background-repeat: no-repeat;
  } 
 
-/* next: work on having header content centered no matter what. Perhaps look into position and flow */
 
 header {
     background-color: transparent;
@@ -38,14 +37,14 @@ header {
 }
 
 #aboutlink {
-    position:relative;
+    position: absolute;
     display: block;
     font-size: 30px;
     width: 200px;
     height: fit-content;
     background-color: black;
-    top: -260px;
-    left: -425px;
+    top: 65px;
+    left: 100px;
     margin-left: auto;
     margin-right: auto;
     background-color: transparent;
@@ -54,6 +53,42 @@ header {
     transform: rotate(315deg);
 
 }
+
+#contactlink {
+    position: absolute;
+    display: block;
+    font-size: 30px;
+    width: 200px;
+    height: fit-content;
+    background-color: black;
+    top: 65px;
+    left: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: transparent;
+    color:#d4faa3;
+    text-decoration: underline;
+    transform: rotate(315deg);
+
+}
+
+#worklink {
+    position: absolute;
+    display: block;
+    font-size: 30px;
+    width: 200px;
+    height: fit-content;
+    background-color: black;
+    top: 65px;
+    left: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: transparent;
+    color:#d4faa3;
+    text-decoration: underline;
+    transform: rotate(315deg);
+}
+
 
 h1 {
     font-size: 12px;
@@ -65,6 +100,13 @@ h1 {
     font-family: monospace;
     color: #d4faa3;
 }
+
+/*maybe try adding nav container as flex box and apply shrink to the following bars */
+
+/* .barcontainer {
+    display: flex;
+    justify-content: space-between;
+} */
 
 .topbar {
     background-image: linear-gradient(to right, #d4faa3 ,#bdecdb, #bdecdb);
@@ -119,12 +161,12 @@ h1 {
     text-align: center;
     font-size: large;
     font-weight: bolder;
-    color: white;
+    color: black;
     margin-top:8px;
 
 }
 
-.contactbar {
+#contactbar {
     background-color: #bdecdb;
     height: 40px;
     width: 200px;
@@ -133,12 +175,12 @@ h1 {
     margin-left: 40px;
 }
 
-.contactbar p {
+#contactbar p {
    background: transparent;
     text-align: center;
     font-size: large;
     font-weight: bolder;
-    color: white;
+    color: black;
     margin-top:8px;
 
 }
@@ -186,7 +228,7 @@ span {
     
 }
 
-.workbar {
+#workbar {
     background-color: #bdecdb;
     height: 40px;
     width: 200px;
@@ -195,12 +237,12 @@ span {
     margin-left: 40px;
 }
 
-.workbar p {
+#workbar p {
     background: transparent;
      text-align: center;
      font-size: large;
      font-weight: bolder;
-     color: white;
+     color: black;
      margin-top:8px;
  
  }
@@ -233,7 +275,7 @@ span {
     }
 }
 
-@media screen and (max-width:1350px) {
+/* @media screen and (max-width:1350px) {
     .topbar {
         background-image: linear-gradient(to right, rgb(212, 250, 163) , #bdecdb);
         height: 60px;
@@ -251,9 +293,11 @@ span {
     }
     
     
-}
+} */
 
-@media screen and (max-width:750px) {
+/* add nav links to media query */
+
+/* @media screen and (max-width:750px) { 
     .topbar {
         background-image: linear-gradient(to right, rgb(212, 250, 163) , #bdecdb);
         height: 60px;
@@ -266,6 +310,46 @@ span {
         background-image: linear-gradient(to left, #d4faa3 , #bdecdb);
         height: 60px;
         width: 125px;
+        margin-top: -260px;
+        float: right;
+    }
+    
+    
+} */
+
+@media screen and (max-width:1330px) { 
+    .topbar {
+        background-image: linear-gradient(to right, rgb(212, 250, 163) , transparent);
+        height: 60px;
+        width: 575px;
+        margin-top: -200px;
+        margin-bottom: 200px;
+    }
+
+   .otherbar {
+        background-image: linear-gradient(to left, #d4faa3 , transparent);
+        height: 60px;
+        width: 575px;
+        margin-top: -260px;
+        float: right;
+    }
+    
+    
+}
+
+@media screen and (max-width:575px) { 
+    .topbar {
+        background-image: linear-gradient(to right, rgb(212, 250, 163) , transparent);
+        height: 60px;
+        width: 250px;
+        margin-top: -200px;
+        margin-bottom: 200px;
+    }
+
+   .otherbar {
+        background-image: linear-gradient(to left, #d4faa3 , transparent);
+        height: 60px;
+        width: 250px;
         margin-top: -260px;
         float: right;
     }
