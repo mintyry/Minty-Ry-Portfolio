@@ -10,6 +10,7 @@ body {
     background-image: url("./images/cloud.png");
     background-size:cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
  } 
 
 
@@ -20,35 +21,21 @@ header {
 }
 
 
-.logo {
+/*.logo {
     display:block;
     margin-left: auto;
     margin-right: auto;
     top: 0px;
     left: 350px;
-}
+} */
 
 .minty {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    top: 0px;
-    left: 350px;
 }
 
-nav {
-    background-color: black;
-    position:absolute;
-    width:fit-content;
-    height: fit-content;
-    top: 0px;
-    left: 0px;
-    margin-left: auto;
-    margin-right: auto;
-
-}
-
-#aboutlink {
+#aboutlink, #contactlink, #worklink {
     position: absolute;
     display: block;
     font-size: 30px;
@@ -65,37 +52,16 @@ nav {
 
 }
 
-#contactlink {
-    position: absolute;
-    display: block;
-    font-size: 30px;
-    width: 200px;
-    height: fit-content;
-    top: 65px;
-    left: 200px;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: transparent;
-    color:#d4faa3;
-    text-decoration: underline;
-    transform: rotate(315deg);
+#aboutlink {
+    left: 100px;
+}
 
+#contactlink {
+    left: 200px;
 }
 
 #worklink {
-    position: absolute;
-    display: block;
-    font-size: 30px;
-    width: 200px;
-    height: fit-content;
-    top: 65px;
     left: 300px;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: transparent;
-    color:#d4faa3;
-    text-decoration: underline;
-    transform: rotate(315deg);
 }
 
 
@@ -346,7 +312,7 @@ span {
     
 }
 
-@media screen and (max-width:575px) { 
+@media screen and (max-width:575px) {
     .topbar {
         background-image: linear-gradient(to right, rgb(212, 250, 163) , transparent);
         height: 60px;
@@ -362,6 +328,46 @@ span {
         margin-top: -260px;
         float: right;
     }
+}
+
+@media screen and (max-width:930px) {
+    #aboutlink {
+        left: 0px;
+    }
     
+    #contactlink {
+        left: 100px;
+    }
     
+    #worklink {
+        left: 200px;
+    }
+}
+
+@media screen and (max-width:730px) {
+    #aboutlink, #contactlink, #worklink {
+        position: absolute;
+        display: block;
+        font-size: 3vw;
+        width: 200px;
+        height: fit-content;
+        left: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: transparent;
+        color:#d4faa3;
+        text-decoration: underline;
+        transform:none
+    }
+
+    #aboutlink {
+        top: 65px;
+    }
+    #contactlink {
+        top: 95px;
+    }
+    
+    #worklink {
+        top: 125px;
+    }
 }
