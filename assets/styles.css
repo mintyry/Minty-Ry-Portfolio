@@ -371,3 +371,9 @@ span {
         top: 125px;
     }
 }
+
+@media (max-width:399px) {
+    .minty {
+    margin-left:-20%;
+}
+}
