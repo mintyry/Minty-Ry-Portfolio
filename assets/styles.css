@@ -36,13 +36,24 @@ header {
     left: 350px;
 }
 
+nav {
+    background-color: black;
+    position:absolute;
+    width:fit-content;
+    height: fit-content;
+    top: 0px;
+    left: 0px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
 #aboutlink {
     position: absolute;
     display: block;
     font-size: 30px;
     width: 200px;
     height: fit-content;
-    background-color: black;
     top: 65px;
     left: 100px;
     margin-left: auto;
@@ -60,7 +71,6 @@ header {
     font-size: 30px;
     width: 200px;
     height: fit-content;
-    background-color: black;
     top: 65px;
     left: 200px;
     margin-left: auto;
@@ -78,7 +88,6 @@ header {
     font-size: 30px;
     width: 200px;
     height: fit-content;
-    background-color: black;
     top: 65px;
     left: 300px;
     margin-left: auto;
