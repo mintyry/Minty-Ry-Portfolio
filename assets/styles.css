@@ -6,6 +6,10 @@
     padding: 0;
 }
 
+a {
+    text-decoration: none;
+}
+
 body {
     background-image: url("./images/cloud.png");
     background-size:cover;
@@ -225,7 +229,7 @@ span {
 .work {
     /*width: 40%;*/
     /* max-width: 500px;*/
-    height: 724px;
+    height: 720px;
   /*  margin-right: 20px; */
   /*  margin-top: -848px; */
     /* border: 2px solid #d4faa3; */
@@ -236,18 +240,48 @@ span {
     flex-wrap: wrap;
 }
 
+
 .work1 {
     width: 400px;
     height: 200px;
-    background-color: black;
     display: flex;
     background-image: url("./images/wweshot.png");
     background-size:auto;
     background-repeat: no-repeat;
-    filter: sepia(300%) brightness(120%) hue-rotate(40deg) saturate(150%);
+    /* filter: sepia(300%) brightness(120%) hue-rotate(40deg) ; */
+    
 }
+
 .work1:hover {
+    filter:none;
+    /* opacity: 1.0; */
+}
+
+.work1tab {
     filter:none !important;
+    background-color: #bdecdb !important;
+    height: 40px !important;
+    width: 120px !important;
+    text-align: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    border-radius: 20px 20px 0px 0px;
+    border: double 3px #d4faa3;
+    
+}
+
+.tabtitle {
+    color: black;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+.tabd {
+    font-size: 10px;
+    color: black!important;
 }
 
 .work2 {
@@ -258,11 +292,26 @@ span {
     background-image: url("./images/preworkshot.png");
     background-size:auto 300px;
     background-repeat: no-repeat;
-    filter: sepia(300%) brightness(120%) hue-rotate(40deg) saturate(150%);
+    /* filter: sepia(300%) brightness(120%) hue-rotate(40deg) saturate(150%); */
   
 }
 .work2:hover {
     filter:none !important;
+}
+
+.work2tab {
+    filter:none !important;
+    background-color: #bdecdb !important;
+    height: 40px !important;
+    width: 120px !important;
+    text-align: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    border-radius: 20px 20px 0px 0px;
+    border: double 3px #d4faa3;
+    
 }
 
 .work3 {
@@ -271,14 +320,29 @@ span {
     background-color: black;
     display: flex;
     background-image: url("./images/placeholder.jpg");
-    background-size:cover;
+    background-size:contain;
     background-repeat: no-repeat;
     background-position: center;
     margin-left: 20px;
-    filter: sepia(300%) brightness(120%) hue-rotate(40deg) saturate(150%);
+    /* filter: sepia(300%) brightness(120%) hue-rotate(40deg) saturate(150%); */
 }
 .work3:hover {
     filter:none !important;
+}
+
+.work3tab {
+    filter:none !important;
+    background-color: #bdecdb !important;
+    height: 40px !important;
+    width: 120px !important;
+    text-align: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    border-radius: 20px 20px 0px 0px;
+    border: double 3px #d4faa3;
+    
 }
 
 .work4 {
@@ -289,10 +353,25 @@ span {
     background-image: url("./images/horishot.png");
     background-size:auto 300px;
     background-repeat: no-repeat;
-    filter: sepia(300%) brightness(120%) hue-rotate(40deg) saturate(150%);
+    /* filter: sepia(300%) brightness(120%) hue-rotate(40deg) saturate(150%); */
 }
 .work4:hover {
     filter:none !important;
+}
+
+.work4tab {
+    filter:none !important;
+    background-color: #bdecdb !important;
+    height: 40px !important;
+    width: 120px !important;
+    text-align: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    border-radius: 20px 20px 0px 0px;
+    border: double 3px #d4faa3;
+    
 }
 
 .work5 {
@@ -301,16 +380,30 @@ span {
     background-color: black;
     display: flex;
     background-image: url("./images/placeholder.jpg");
-    background-size:cover;
+    background-size:contain;
     background-repeat: no-repeat;
     background-position: center;
     margin-left: 20px;
-    filter: sepia(300%) brightness(120%) hue-rotate(40deg) saturate(150%);
+    /* filter: sepia(300%) brightness(120%) hue-rotate(40deg) saturate(150%); */
 }
 .work5:hover {
     filter:none !important;
 }
 
+.work5tab {
+    filter:none !important;
+    background-color: #bdecdb !important;
+    height: 40px !important;
+    width: 120px !important;
+    text-align: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    border-radius: 20px 20px 0px 0px;
+    border: double 3px #d4faa3;
+    
+}
 
 
 @media screen and (max-width:1020px) {
