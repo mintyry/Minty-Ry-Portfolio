@@ -37,4 +37,4 @@ N/A
 
 ## Project Repository
 
-Please enjoy this application's [repository](https://github.com/mintyry/Minty-Ry-Portfolio) on GitHub!
+Please enjoy the [deployed application here](link url here)!
