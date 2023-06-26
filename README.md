@@ -31,8 +31,6 @@ In the work section, you can click on any of the app screenshots to visit other 
 
 ![Clicking on one of my app images will bring you to the deployed app.](./assets/images/clickapp.png)
 
-Provide instructions and examples for use. Include screenshots as needed.
-
 ## Credits
 
 N/A
