@@ -7,7 +7,7 @@ This is a portfolio of my work for future employers and those interested in what
 
 Other than being a required assignment, my motivation for this was to build a an eye-catching and comprehensive portfolio for prospective employers. At this point, we have wrapped up CSS, and I wanted to exhibit some of my creativity to the best of my ability with the required specifications.
 
-This application not only displays my work and a bit about myself, but it solves a few problems: links will jump to their corresponding sections, and images of my deployed apps are linked so that visitors may click and subsequently view the respective apps. Additionally, my app demonstrates solutions to when others view under different resolutions/screen sizes by being responsive and adjusting its layout in various manners.
+This application not only displays my work and a bit about myself, but it solves a few problems: links will jump to their corresponding sections, and images of my deployed apps are linked so that visitors may click and subsequently view the respective apps. Additionally, my app demonstrates solutions for when others view it under different resolutions/screen sizes by being responsive and adjusting its layout in various manners.
 
 In building this application, I learned that CSS can truly be used in a variety of ways to exexute one's ideas/goals. There are many approaches one can use to achieve the same effect, but properties and values will vary depending on other present elements and how they all work within the layout with each other. This can be tricky, but also encourages me to be creative and think... out of the box (pun intended, absolutely.)
 
