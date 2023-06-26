@@ -21,7 +21,7 @@ For this application, you can use the navigation links at the top to visit its c
 
 ![Clicking on the Work navigation link will have the page jump to the Work section.](./assets/images/clickwork.png)
 
-All three sections provide information about me! You can read on about me to learn a few quick tidbits about me. You can visit the contact section to find out how you can reach out to me. You can also view the work section to revel in my work.
+All three sections provide information about me! The About Me section provides some quick tidbits about -- you guessed it -- me. You can visit the contact section to find out how you can reach out to me. You can also view the work section to revel in my work.
 
 In the contact section, you can click on the email address, Instagram name, or GitHub name to email me or visit those social pages, respectively.
 
