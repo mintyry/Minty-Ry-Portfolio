@@ -219,12 +219,13 @@ span {
 }
 
 .work3 {
+    filter: sepia(300%) brightness(100%) hue-rotate(40deg);
     width:190px;
     height: 190px;
     background-color: black;
-    background-image: url("./images/placeholder.jpg");
-    background-size:contain;
-    background-position: center;
+    background-image: url("./images/snipfullpage.png");
+    background-size:auto 300px;
+    background-position:top;
     margin-left: 20px;
 }
 
