@@ -108,7 +108,7 @@ h1 {
 
 #aboutbar p, #contactbar p, #workbar p {
     text-align: center;
-    font-size: 2.2vh;
+    font-size: 1rem;
     font-weight: bolder;
     color: black;
     margin-top:8px;
@@ -120,14 +120,19 @@ h1 {
     height: 300px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5), rgb(145, 156, 150, 0.5));
     line-height: 1.5;
-    font-size: large;
+    /* font-size: 1rem; */
     overflow: scroll;
+}
+
+.about p {
+    font-size: large;
 }
 
 li {
     background-color: transparent;
     line-height: 4;
     list-style-type: square;
+    white-space: nowrap;
 }
 
 span {
