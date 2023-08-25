@@ -243,8 +243,8 @@ span {
     height: 190px;
     background-color: black;
     background-image: url("./images/full-lp.png");
-    background-size:auto 300px;
-    background-position: top;
+    background-size:auto 600px;
+    background-position: center;
     margin-left: 20px;
 }
 
