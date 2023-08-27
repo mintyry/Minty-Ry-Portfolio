@@ -1,3 +1,4 @@
+/* The universal selector applies these specifications to every aspect/box on my webpage until other properties and values are applied later in specific blocks of code for their corresponding elements/classes, etc. */
 * {
     background-color: transparent;
     font-family: 'Arial Narrow', Arial, sans-serif;
@@ -6,10 +7,12 @@
     padding: 0;
 }
 
+/* every link will have no text-decoration by default */
 a {
     text-decoration: none;
 }
 
+/* This gives the background image for my site */
 body {
     background-image: url("./images/cloud.png");
     background-size:cover;
@@ -17,18 +20,19 @@ body {
     background-attachment: fixed;
  } 
 
-
+/* This is to ensure no colors may interfere with this container */
 header {
     background-color: transparent;
 }
 
-
+/* this is my logo */
 .minty {
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
+/* These style the nav links at top of page */
 #aboutlink, #contactlink, #worklink {
     position: absolute;
     font-size: 30px;
@@ -40,9 +44,8 @@ header {
     color:#d4faa3;
     text-decoration: underline;
     transform: rotate(315deg);
-
 }
-
+/* The following positions the links separately */
 #aboutlink {
     left: 100px;
 }
@@ -55,7 +58,7 @@ header {
     left: 300px;
 }
 
-
+/* my name */
 h1 {
     font-size: 12px;
     position: absolute;
@@ -65,6 +68,7 @@ h1 {
     color: #d4faa3;
 }
 
+/* These two bars are on both sides of logo */
 .topbar {
     background-image: linear-gradient(to right, #d4faa3 ,#bdecdb, #bdecdb);
     height: 60px;
@@ -81,6 +85,7 @@ h1 {
     float: right;
 }
 
+/* This flexbox holds all three main sections of my page */
 .all {
     background-color: transparent;
     display:flex;
@@ -88,7 +93,7 @@ h1 {
     justify-content: center;
 
 }
-
+/* This container holds the left boxes of my page */
 .content {
     max-width: 500px;
     height: auto;
@@ -96,6 +101,7 @@ h1 {
     padding-right: -200px;
 }
 
+/* These are the tab title bars for about, contact, and work */
 #aboutbar, #contactbar, #workbar {
     background-color: #bdecdb;
     height: 40px;
@@ -105,7 +111,7 @@ h1 {
     margin-left: 40px;
     
 }
-
+/* These are the text that go inside the title bars */
 #aboutbar p, #contactbar p, #workbar p {
     text-align: center;
     font-size: 1rem;
@@ -114,6 +120,7 @@ h1 {
     margin-top:8px;
 }
 
+/* These are properties for the actual about and contact sections */
 .about, .contact {
     margin-bottom: 20px;
     padding: 50px;
@@ -124,10 +131,12 @@ h1 {
     overflow: scroll;
 }
 
+/* This applies font-size for the text in About */
 .about p {
     font-size: large;
 }
 
+/* These apply styles to the list in Contact */
 li {
     background-color: transparent;
     line-height: 4;
@@ -135,15 +144,18 @@ li {
     white-space: nowrap;
 }
 
+/* This applies to the titles for the contact section (ie: phone number, email, etc.) to differentiate from the actual links */
 span {
     font-weight: bolder;
 }
 
+/* This positions and styles the drawing of me and my dog */
 .pup {
     float: right;
     border-radius: 360px;
 }
 
+/* This styles the container for my Work section */
 .rightbox {
     max-width: 500px;
     height: auto;
@@ -151,6 +163,7 @@ span {
     padding-left: 20px;
 }
 
+/* Styles for the actual work section */
 .work {
     height: 720px;
     padding: 50px; 
@@ -159,17 +172,18 @@ span {
     flex-wrap: wrap;
 }
 
+/* Styles for all the tabs for the work links and images */
 .tabtitle {
     color: black;
     text-align: center;
     justify-content: center;
 }
-
+/* Styles for the text that indicates what coding languages were used */
 .tabd {
     font-size: 10px;
     color: black!important;
 }
-
+/* Positioning and styling for the tabs for each individual title tab */
 .work1tab, .work2tab, .work3tab, .work4tab, .work5tab  { 
     position: absolute;
     z-index: 3;
@@ -204,7 +218,9 @@ span {
     margin-top: 627.5px;
     margin-left: 243px;
 }
-     
+ 
+/* Applies styles to each image for work links */
+
 .work1, .work2, .work3, .work4, .work5 {
     display: flex;
     background-repeat: no-repeat;
@@ -255,10 +271,14 @@ span {
     margin-left: 20px;
 }
 
+/* All work link images have filters; the following code is to remove the filter so the image is clear on hover */
 .work1:hover, .work2:hover, .work3:hover, .work4:hover, .work5:hover {
     filter:none;
 }
 
+/* following codes are media queries that allow for responsiveness to different screen sizes */
+
+/* this is so the right box doesnt become too big when window shrinks */
 @media screen and (max-width:1019px) {
     .rightbox {
         max-width: 500px;
@@ -268,6 +288,7 @@ span {
     }
 }
 
+/* The following media queries are so the top bars surrounding the logo adjust and dont look terrible once they make contact or overlap behind the logo */
 @media screen and (max-width:1330px) { 
     .topbar {
         background-image: linear-gradient(to right, rgb(212, 250, 163) , transparent);
@@ -304,6 +325,7 @@ span {
     }
 }
 
+/* Adjusting nav links positioning when screen shrinks */
 @media screen and (max-width:930px) {
     #aboutlink {
         left: 0px;
@@ -358,6 +380,8 @@ span {
         left: 60px;
     }
 }
+
+/* Noticed the work tab title was a bit out of line with the others on a smaller screen, so i adjusted it back into alignment */
 @media screen and (max-width:415px) {
    #workbar {
     margin-left: 100px;       
