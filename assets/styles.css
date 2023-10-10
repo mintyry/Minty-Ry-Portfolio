@@ -229,8 +229,9 @@ span {
 .work1 {
     width: 400px;
     height: 200px;
-    background-image: url("./images/wweshot.png");
-    background-size:auto;
+    background-image: url("./images/dexperience.png");
+    background-size: auto;
+    background-position:50% 75%;
 }
 
 .work2 {
@@ -256,8 +257,8 @@ span {
     width:190px;
     height: 190px;
     background-color: black;
-    background-image: url("./images/horishot.png");
-    background-size:auto 300px;
+    background-image: url("./images/wweshot.png");
+    background-size:auto 700px;
 }
 
 .work5 {
