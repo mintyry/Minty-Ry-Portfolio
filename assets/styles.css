@@ -201,7 +201,8 @@ span {
 }
 .work2tab {
     margin-top: 391px;
-    margin-left: 32px;
+    margin-left: 19px;
+    width: 150px !important;
 }
 
 .work3tab {
@@ -238,8 +239,9 @@ span {
     width:190px;
     height: 190px;
     background-color: black;
-    background-image: url("./images/preworkshot.png");
-    background-size:auto 300px;  
+    background-image: url("./images/five.png");
+    background-size:auto 190px;
+    background-position:10% 50%;
 }
 
 .work3 {
@@ -247,9 +249,9 @@ span {
     width:190px;
     height: 190px;
     background-color: black;
-    background-image: url("./images/snipfullpage.png");
-    background-size:auto 300px;
-    background-position:top;
+    background-image: url("./images/pokemon-quiz.png");
+    background-size:auto 500px;
+    background-position:50% 80%;
     margin-left: 20px;
 }
 
@@ -266,9 +268,9 @@ span {
     width:190px;
     height: 190px;
     background-color: black;
-    background-image: url("./images/full-lp.png");
-    background-size:auto 600px;
-    background-position: center;
+    background-image: url("./images/timetracker.png");
+    background-size:190px 190px;
+    background-position: 50% 100%;
     margin-left: 20px;
 }
 
