@@ -1,5 +1,4 @@
 # Minty-Ry-Portfolio
-Challenge #2
 
 ## Description
 
@@ -29,7 +28,7 @@ In the contact section, you can click on the email address, Instagram name, or G
 
 In the work section, you can click on any of the app screenshots to visit other works I've deployed!
 
-![Clicking on one of my app images will bring you to the deployed app.](./assets/images/updatedwork.png)
+![Clicking on one of my app images will bring you to the deployed app.](./assets/images/updatedworknew.png)
 
 ## Credits
 
