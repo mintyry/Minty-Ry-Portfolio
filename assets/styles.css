@@ -139,7 +139,7 @@ h1 {
 /* These apply styles to the list in Contact */
 li {
     background-color: transparent;
-    line-height: 4;
+    line-height: 3;
     list-style-type: square;
     white-space: nowrap;
 }
